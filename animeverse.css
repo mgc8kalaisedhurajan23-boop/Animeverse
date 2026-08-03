@@ -525,3 +525,174 @@ td{
     background:white;
     color:#ff004f;
 }
+
+
+@media screen and (max-width:768px){
+
+/* Navbar */
+
+nav{
+    padding:15px;
+}
+
+nav div{
+    flex-direction:column;
+    align-items:center;
+}
+
+nav img{
+    width:60px;
+    height:60px;
+}
+
+nav ul{
+    flex-direction:column;
+    gap:15px;
+    margin-top:20px;
+    text-align:center;
+}
+
+nav ul li a{
+    font-size:18px;
+}
+
+/* Hero Section */
+
+.hero{
+    height:60vh;
+    background-position:center;
+}
+
+.hero-content h2{
+    font-size:35px;
+}
+
+.hero-content p{
+    font-size:18px;
+}
+
+.button{
+    padding:12px 25px;
+    font-size:16px;
+}
+
+/* Figure Cards */
+
+.figure-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.figure-card img{
+    width:180px;
+    height:220px;
+    margin:auto;
+}
+
+/* Video Section */
+
+.video-section{
+    flex-direction:column;
+    padding:30px;
+}
+
+.video-text,
+.video-content{
+    width:100%;
+    text-align:center;
+}
+
+.video-content video{
+    width:100%;
+}
+
+/* About */
+
+.about{
+    padding:30px 20px;
+}
+
+.about p{
+    width:100%;
+}
+
+/* Footer */
+
+.foot-container{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.foot-box{
+    width:100%;
+    margin-bottom:25px;
+}
+
+/* Login */
+
+.login-box{
+    width:90%;
+    margin:40px auto;
+}
+
+/* Cart */
+
+.cart{
+    width:95%;
+    overflow-x:auto;
+}
+
+table{
+    width:100%;
+}
+
+.cart-info{
+    flex-direction:column;
+    text-align:center;
+}
+
+.cart-info img{
+    width:80px;
+    height:80px;
+}
+
+.quantity{
+    justify-content:center;
+}
+
+.checkout{
+    width:100%;
+}
+
+}
+
+@media screen and (max-width:480px){
+
+.hero-content h2{
+    font-size:28px;
+}
+
+.hero-content p{
+    font-size:16px;
+}
+
+nav ul li a{
+    font-size:16px;
+}
+
+.section-title{
+    font-size:28px;
+}
+
+.figure-card img{
+    width:150px;
+    height:180px;
+}
+
+.button{
+    width:100%;
+}
+
+}
